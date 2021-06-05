@@ -1,32 +1,32 @@
 import { COLOR_PRIVATE_CONTEXT, IColorPrivateContext, IColorStruct } from '../struct/color.struct';
 import { normalizeColorValue } from '../../../helpers/normalize-color-value';
-import { ColorStructGetAlphaImplementation } from '../struct/implementations/channels/alpha/color-struct-get-alpha.implementation';
-import { ColorStructSetAlphaImplementation } from '../struct/implementations/channels/alpha/color-struct-set-alpha.implementation';
-import { ColorStructSetBlueImplementation } from '../struct/implementations/channels/blue/color-struct-set-blue.implementation';
-import { ColorStructGetBlueImplementation } from '../struct/implementations/channels/blue/color-struct-get-blue.implementation';
-import { ColorStructSetGreenImplementation } from '../struct/implementations/channels/green/color-struct-set-green-implementation';
-import { ColorStructGetGreenImplementation } from '../struct/implementations/channels/green/color-struct-get-green-implementation';
-import { ColorStructSetRedImplementation } from '../struct/implementations/channels/red/color-struct-set-red-implementation';
-import { ColorStructGetRedImplementation } from '../struct/implementations/channels/red/color-struct-get-red-implementation';
+import { ColorStructGetAlphaImplementation } from '../struct/implementations/channels/alpha/color-struct.get-alpha.implementation';
+import { ColorStructSetAlphaImplementation } from '../struct/implementations/channels/alpha/color-struct.set-alpha.implementation';
+import { ColorStructSetBlueImplementation } from '../struct/implementations/channels/blue/color-struct.set-blue.implementation';
+import { ColorStructGetBlueImplementation } from '../struct/implementations/channels/blue/color-struct.get-blue.implementation';
+import { ColorStructSetGreenImplementation } from '../struct/implementations/channels/green/color-struct.set-green-implementation';
+import { ColorStructGetGreenImplementation } from '../struct/implementations/channels/green/color-struct.get-green-implementation';
+import { ColorStructSetRedImplementation } from '../struct/implementations/channels/red/color-struct.set-red-implementation';
+import { ColorStructGetRedImplementation } from '../struct/implementations/channels/red/color-struct.get-red-implementation';
 import { assembleTraitImplementations, createPrivateContext } from '@lifaon/traits';
-import { ColorStructToRGBImplementation } from '../struct/implementations/to/to-rgb/color-struct-to-rgb.implementation';
-import { ColorStructToRGBAImplementation } from '../struct/implementations/to/to-rgb/color-struct-to-rgba.implementation';
-import { ColorStructToStringImplementation } from '../struct/implementations/to/to-string/color-struct-to-string.implementation';
-import { ColorStructToHexImplementation } from '../struct/implementations/to/to-hex/color-struct-to-hex.implementation';
-import { ColorStructToHSLAObjectImplementation } from '../struct/implementations/to/to-hsl/color-struct-to-hsla-object-implementation';
-import { ColorStructToHSLAImplementation } from '../struct/implementations/to/to-hsl/color-struct-to-hsla-implementation';
-import { ColorStructToHSLImplementation } from '../struct/implementations/to/to-hsl/color-struct-to-hsl.implementation';
-import { ColorStructEqualsImplementation } from '../struct/implementations/comparison/equals/color-struct-equals.implementation';
-import { ColorClassNewImplementation } from './implementations/color-class-new.implementation';
-import { ColorClassParseRGBImplementation } from './implementations/color-class-parse-rgb.implementation';
-import { ColorClassParseImplementation } from './implementations/color-class-parse.implementation';
-import { ColorClassFromHSLAObjectImplementation } from './implementations/color-class-from-hsla-object.implementation';
+import { ColorStructToRGBImplementation } from '../struct/implementations/to/to-rgb/color-struct.to-rgb.implementation';
+import { ColorStructToRGBAImplementation } from '../struct/implementations/to/to-rgb/color-struct.to-rgba.implementation';
+import { ColorStructToStringImplementation } from '../struct/implementations/to/to-string/color-struct.to-string.implementation';
+import { ColorStructToHexImplementation } from '../struct/implementations/to/to-hex/color-struct.to-hex.implementation';
+import { ColorStructToHSLAObjectImplementation } from '../struct/implementations/to/to-hsl/color-struct.to-hsla-object-implementation';
+import { ColorStructToHSLAImplementation } from '../struct/implementations/to/to-hsl/color-struct.to-hsla-implementation';
+import { ColorStructToHSLImplementation } from '../struct/implementations/to/to-hsl/color-struct.to-hsl.implementation';
+import { ColorStructEqualsImplementation } from '../struct/implementations/comparison/equals/color-struct.equals.implementation';
+import { ColorClassNewImplementation } from './implementations/color-class.new.implementation';
+import { ColorClassParseRGBImplementation } from './implementations/color-class.parse-rgb.implementation';
+import { ColorClassParseImplementation } from './implementations/color-class.parse.implementation';
+import { ColorClassFromHSLAObjectImplementation } from './implementations/color-class.from-hsla-object.implementation';
 import {
   ColorStructMixImplementation, IColorStructMixImplementationGColorConstraint
 } from '../struct/implementations/operations/mix/color-struct-mix.implementation';
-import { ColorStructDarkenImplementation } from '../struct/implementations/operations/darken/color-struct-lighten.implementation';
-import { ColorStructGrayscaleImplementation } from '../struct/implementations/operations/grayscale/color-struct-grayscale.implementation';
-import { ColorStructInvertImplementation } from '../struct/implementations/operations/invert/color-struct-invert.implementation';
+import { ColorStructDarkenImplementation } from '../struct/implementations/operations/darken/color-struct.lighten.implementation';
+import { ColorStructGrayscaleImplementation } from '../struct/implementations/operations/grayscale/color-struct.grayscale.implementation';
+import { ColorStructInvertImplementation } from '../struct/implementations/operations/invert/color-struct.invert.implementation';
 import { ColorStructLightenImplementation } from '../struct/implementations/operations/lighten/color-struct-lighten.implementation';
 
 /** CONSTRUCTOR **/

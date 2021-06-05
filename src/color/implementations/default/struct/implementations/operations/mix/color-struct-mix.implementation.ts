@@ -3,7 +3,7 @@ import { IGenericColorStruct } from '../../../color.struct';
 import {
   ColorMixUsingGetChannelsAndNewTrait, IColorMixUsingGetChannelsAndNewGColorConstraint,
   IColorMixUsingGetChannelsAndNewGSelfConstraint
-} from '../../../../../../traits/operations/mix/derived/color-mix-using-get-channels-and-new.trait';
+} from '../../../../../../traits/operations/mix/derived/color.mix.using-get-channels-and-new.trait';
 
 
 export interface IColorStructMixImplementationGSelfConstraint<GReturn> extends

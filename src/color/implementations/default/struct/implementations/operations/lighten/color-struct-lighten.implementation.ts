@@ -2,7 +2,7 @@ import { Impl } from '@lifaon/traits';
 import { IGenericColorStruct } from '../../../color.struct';
 import {
   ColorLightenUsingToAndFromHSLAObjectTrait, IColorLightenUsingToAndFromHSLAObjectTraitGSelfConstraint
-} from '../../../../../../traits/operations/lighten/derived/color-lighten-using-to-and-from-hsla-object.trait';
+} from '../../../../../../traits/operations/lighten/derived/color.lighten.using-to-and-from-hsla-object.trait';
 
 
 export interface IColorStructLightenImplementationGSelfConstraint<GReturn> extends
