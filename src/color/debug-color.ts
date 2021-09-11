@@ -1,4 +1,4 @@
-import { Color, IColor } from './implementations/default/class/color.class';
+import { Color, IColor } from '@lifaon/color';
 
 function createDummyElement(): HTMLDivElement {
   const element: HTMLDivElement = document.createElement('div');
@@ -24,7 +24,7 @@ async function debugColorParse() {
     } else {
       console.log(_color.toRGBA());
       console.log(_color.toHSLA());
-      console.log(_color.toHex());
+      console.log(_color.toHexString());
       console.log(_color.toHSLAObject());
     }
   });
@@ -88,6 +88,7 @@ export async function debugColor2() {
   if (color === null) {
     throw new Error(`Failed to parse color`);
   }
+
   console.log(
     color
       .mix(new Color(0.5, 1, 0, 1), 0.5) // rgba(191, 128, 0, 1)

@@ -3,9 +3,9 @@
 
 
 "@lifaon/traits@2.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@lifaon/traits/-/traits-1.0.0.tgz#67464efc236f3aeefa87cf29a9b4787335593d83"
-  integrity sha512-W3oVxN5wL+6WJBSwKPeUREIuaOHwQQVh73R4JiMnEsV6T7InGnROzYi8eDdi+oqpWiZunDt7t5WaC8IL0mgnzA==
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@lifaon/traits/-/traits-2.0.0.tgz#c575a6519bdbb9c8de9539ebe6223ba8a6d2d62d"
+  integrity sha512-nl78g86Il8Qv8Qy+mVp0oc/MBY84z6BD+HO1ZF9mrAG2jmStVBmcymcIYcXs415X9Ku5YBe87G14UZwefeeV5g==
 
 "@types/requestidlecallback@^0.3.1":
   version "0.3.1"

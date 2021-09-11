@@ -4,8 +4,8 @@ import { debugActivable } from './activable/debug-activable';
 
 function run() {
   // debugTraitNumberLike();
-  // debugColor();
-  debugActivable();
+  debugColor();
+  // debugActivable();
 }
 
 run();

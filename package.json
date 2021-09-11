@@ -19,6 +19,7 @@
     "tslib": "^2.1.0"
   },
   "dependencies": {
-    "@lifaon/traits": "2.0.0"
+    "@lifaon/traits": "2.0.0",
+    "@lifaon/color": "1.0.0"
   }
 }
