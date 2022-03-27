@@ -1,11 +1,9 @@
-import { debugTraitNumberLike } from './number-like/number-like';
-import { debugColor } from './color/debug-color';
-import { debugActivable } from './activable/debug-activable';
+import { debugMediaTrait } from './media/media-trait.debug';
+import { debugNumberTrait } from './number/number-trait.debug';
 
 function run() {
-  // debugTraitNumberLike();
-  debugColor();
-  // debugActivable();
+  // debugNumberTrait();
+  debugMediaTrait();
 }
 
 run();
